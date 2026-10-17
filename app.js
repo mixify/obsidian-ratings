@@ -10,15 +10,13 @@ function render(){
  const groups=new Map();
  for(const item of filtered){const key=item.score===null?'Unrated':Number(item.score).toFixed(1);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(item);}
  for(const key of [...groups.keys()].sort((a,b)=>a==='Unrated'?1:b==='Unrated'?-1:Number(b)-Number(a))){
-  const section=el('section','group'),heading=el('h2','',key);heading.append(el('span','',`${groups.get(key).length} ITEMS`));section.append(heading);
+  const section=el('section','group'),heading=el('h2','',key);heading.append(el('span','',`${groups.get(key).length}`));section.append(heading);
   const cards=el('div','cards');
   for(const i of groups.get(key).sort((a,b)=>a.title.localeCompare(b.title,'ko'))){
    const card=el('article','card'),cover=el('a','cover');cover.href=i.note;cover.setAttribute('aria-label',i.title);
    if(i.cover){const img=el('img');img.src=i.cover;img.alt=i.title;img.loading='lazy';img.decoding='async';img.addEventListener('error',()=>{cover.replaceChildren(el('span','placeholder',i.title.charAt(0)));},{once:true});cover.append(img);}else cover.append(el('span','placeholder',i.title.charAt(0)));
    const title=el('h3'),link=el('a','',i.title);link.href=i.note;title.append(link);
    card.append(cover,title,el('p','artist',i.artist),el('p','meta',[i.year,i.category].filter(Boolean).join(' · ')));
-   if(i.comment)card.append(el('p','comment',i.comment));
-   if(i.good_point)card.append(el('p','comment',i.good_point));
    cards.append(card);
   }
   section.append(cards);container.append(section);
