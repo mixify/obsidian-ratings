@@ -1,0 +1,14 @@
+---
+카테고리: 게임
+artist: Sandfall Interactive
+cover: "[[_attachments/covers/게임/Clair Obscur - Expedition 33.jpg]]"
+출시년도: 2025
+score: 2.5
+bach_score: 3
+chelsea_score: 3.5
+평가년도: 2023
+comment:
+good_point:
+---
+
+# Clair Obscur: Expedition 33
