@@ -1,7 +1,7 @@
 ---
 카테고리: 음악
 artist: Lemon Demon
-cover:
+cover: "[[_attachments/covers/음악/View-Monster.jpg]]"
 출시년도: 2009
 score: 2.5
 bach_score: 2.5

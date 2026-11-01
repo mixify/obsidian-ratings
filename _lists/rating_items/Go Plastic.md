@@ -1,7 +1,7 @@
 ---
 카테고리: 음악
 artist: Squarepusher
-cover:
+cover: "[[_attachments/covers/음악/Go Plastic.jpg]]"
 출시년도: 2001
 score: 4
 bach_score: 4

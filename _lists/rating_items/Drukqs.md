@@ -1,7 +1,7 @@
 ---
 카테고리: 음악
 artist: Aphex Twin
-cover:
+cover: "[[_attachments/covers/음악/Drukqs.jpg]]"
 출시년도: 2001
 score: 5
 bach_score: 4.5

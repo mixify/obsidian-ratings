@@ -1,7 +1,7 @@
 ---
 카테고리: 음악
 artist: The Tuss
-cover:
+cover: "[[_attachments/covers/음악/Rushed Up Edge.jpg]]"
 출시년도: 2008
 score: 4.5
 bach_score: 3.5

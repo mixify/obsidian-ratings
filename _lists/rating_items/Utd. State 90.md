@@ -1,7 +1,7 @@
 ---
 카테고리: 음악
 artist: 808 State
-cover:
+cover: "[[_attachments/covers/음악/Utd. State 90.jpg]]"
 출시년도: 1990
 score: 3.5
 bach_score: 2.5

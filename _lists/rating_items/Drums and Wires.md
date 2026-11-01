@@ -1,7 +1,7 @@
 ---
 카테고리: 음악
 artist: XTC
-cover:
+cover: "[[_attachments/covers/음악/Drums and Wires.jpg]]"
 출시년도: 1979
 score: 3.5
 bach_score: 3

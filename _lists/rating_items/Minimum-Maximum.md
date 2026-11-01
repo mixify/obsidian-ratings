@@ -1,7 +1,7 @@
 ---
 카테고리: 음악
 artist: Kraftwerk
-cover:
+cover: "[[_attachments/covers/음악/Minimum-Maximum.jpg]]"
 출시년도: 2005
 score: 4.5
 bach_score: 3

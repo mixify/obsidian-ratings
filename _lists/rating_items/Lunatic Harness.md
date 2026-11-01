@@ -1,7 +1,7 @@
 ---
 카테고리: 음악
 artist: Mu-ziq
-cover:
+cover: "[[_attachments/covers/음악/Lunatic Harness.jpg]]"
 출시년도: 1997
 score: 4
 bach_score: 3.5
